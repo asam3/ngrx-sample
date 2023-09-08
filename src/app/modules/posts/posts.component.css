@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+}
+
+.table {
+  padding: 32px;
+}
+.search-box {
+  display: flex;
+  justify-content: space-between;
+}
+.action-icons {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.rotate {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
